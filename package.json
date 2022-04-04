@@ -1,0 +1,15 @@
+{
+  "name": "3.1-working-with-numbers",
+  "version": "1.0.0",
+  "description": "My solution to 3.1",
+  "main": "src/index.js",
+  "module": "src/main.js",
+  "scripts": {
+    "test": "node -r esm src/main.js"
+  },
+  "author": "Roderick Smith",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
