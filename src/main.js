@@ -1,18 +1,12 @@
-let x = 1
-let y = 3
+import input from 'input';
+ 
+async function askStuff() {
+  const result = await input.text('Dogs or cats?');
 
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
-console.log(x ** y);
-
-console.log(x > y);
-console.log(x >= y);
-console.log(x < y);
-console.log(x <= y);
-console.log(x == y);
-console.log(x != y);
+  console.log(result)
+}
+ 
 
 
+ 
+askStuff();
